@@ -1,0 +1,100 @@
+/* line 3, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+#homepage-fullpage-container {
+  height: 100vh;
+  background: #505050; }
+  /* line 7, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+  #homepage-fullpage-container .homepage-block-container {
+    border: solid white 3px;
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+    text-align: center;
+    color: white;
+    padding: 70px 50px 50px 50px; }
+  /* line 17, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+  #homepage-fullpage-container #contact-button {
+    background: #28CDBE;
+    padding: 17px 30px 17px 30px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    right: 320px;
+    bottom: -20px; }
+
+/* line 28, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+#second-section {
+  background: #EAEAEA;
+  height: 100vh; }
+  /* line 32, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+  #second-section #top-div {
+    text-align: center;
+    padding-top: 100px;
+    width: 950px;
+    margin: 0 auto; }
+    /* line 38, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+    #second-section #top-div .big-icon {
+      margin: 0 auto;
+      border: solid black 2px;
+      width: 140px;
+      height: 140px;
+      -webkit-border-radius: 140px;
+      -moz-border-radius: 140px;
+      -ms-border-radius: 140px;
+      -o-border-radius: 140px;
+      border-radius: 140px; }
+      /* line 45, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+      #second-section #top-div .big-icon i {
+        font-size: 80px;
+        margin-top: 30px; }
+  /* line 52, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+  #second-section #bottom-div {
+    width: 950px;
+    margin: 60px auto; }
+    /* line 58, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+    #second-section #bottom-div ul li {
+      display: inline-block;
+      margin-right: 145px; }
+      /* line 62, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+      #second-section #bottom-div ul li .small-icon-container {
+        -webkit-border-radius: 95px;
+        -moz-border-radius: 95px;
+        -ms-border-radius: 95px;
+        -o-border-radius: 95px;
+        border-radius: 95px;
+        border: solid #28CDBE 1px;
+        color: white;
+        width: 95px;
+        height: 95px;
+        text-align: center;
+        position: relative; }
+        /* line 71, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+        #second-section #bottom-div ul li .small-icon-container:after {
+          color: black;
+          content: "";
+          border-bottom: 1px #000000 dashed;
+          width: 100px;
+          position: absolute;
+          top: 50px;
+          left: 120px; }
+        /* line 81, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+        #second-section #bottom-div ul li .small-icon-container .small-icon {
+          -webkit-border-radius: 85px;
+          -moz-border-radius: 85px;
+          -ms-border-radius: 85px;
+          -o-border-radius: 85px;
+          border-radius: 85px;
+          width: 85px;
+          height: 85px;
+          background: #28CDBE;
+          margin: 5px auto; }
+        /* line 89, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+        #second-section #bottom-div ul li .small-icon-container i {
+          font-size: 50px;
+          margin-top: 17px; }
+      /* line 95, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+      #second-section #bottom-div ul li:nth-child(4) {
+        margin-right: 0; }
+      /* line 99, /Users/Ricky/Sites/my_portfolio_site/source/stylesheets/all.scss */
+      #second-section #bottom-div ul li .last:after {
+        border: none; }
