@@ -1,5 +1,26 @@
 @import "compass";
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  width: 950px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
 #homepage-fullpage-container {
   height: 100vh;
   background: #505050;
@@ -28,6 +49,7 @@
 #second-section {
   background: #EAEAEA;
   height: 100vh;
+  position: relative;
 
   #top-div {
     text-align: center;
@@ -49,7 +71,7 @@
     }
   }
 
-  #bottom-div {
+  #mid-div {
     width: 950px;
     margin: 60px auto;
 
@@ -100,6 +122,113 @@
           border: none;
         }
       }   
+    }
+  }
+
+  #bottom-div {
+    padding: 70px 0 10px 0;
+    background: #2E537F;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    .bottom-div-container {
+      width: 650px;
+      margin: 0 auto;
+      color: white;
+
+      .play-container {
+        position: relative;
+        right: -40px;
+        top: -35px;
+        width: 140px;
+        padding: 30px 0 30px 0;
+        text-align: center;
+        @include border-radius(100px);
+        background: #31383E;
+
+        i {
+          font-size: 80px;
+          position: relative;
+          right: -10px;
+        }
+      }
+    }
+  }
+}
+
+#third-section {
+  background: #EAEAEA;
+  height: 100vh;
+  position: relative;
+  padding: 120px 0 0 0;
+
+  h2 {
+    text-align: center;
+  }
+
+  .works-box {
+    width: 280px;
+    height: 240px;
+    background: white;
+    position: relative;
+    top: -20px;
+    padding: 10px 10px 0 10px;
+  }
+
+  .skillz {
+    color: #AAAAAA;
+    font-size: 12px;
+  }
+
+  p {
+    color: #AAAAAA;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 12px;
+  }
+
+  .works-control {
+    margin: 0 auto;
+    width: 210px;
+
+    .left-arrow {
+      background: #96999D;
+      padding: 4px 5px 4px 5px;
+      width: 15px;
+      text-align: center;
+      color: white;
+    }
+
+    .right-arrow {
+      background: #96999D;
+      padding: 4px 5px 4px 5px;
+      width: 15px;
+      text-align: center;
+      color: white;     
+    }
+
+    .all-works {
+      margin: 0 auto;
+      position: relative;
+      right: -5px;
+      background: #96999D;
+      width: 110px;
+      height: 18px;
+      text-align: center;
+      color: white;  
+      padding: 4px 20px 4px 20px;
+
+      p {
+        color: white;
+        position: relative;
+        top: -13px;
+      }
+
+      i {
+        position: relative;
+        top: 2px;
+      }
     }
   }
 }
